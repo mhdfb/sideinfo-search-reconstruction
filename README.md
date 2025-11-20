@@ -121,6 +121,31 @@ sbatch diss_run_faceID.sh
 </details>
 
 
+
+<details>
+<summary>▶️ 8) MPGD Setup</summary>
+
+<br>
+
+```bash
+
+# download pretrained models
+mkdir integrations/mpgd/models
+gdown 1BGwhRWUoguF-D8wlZ65tf227gp3cDUDh -O integrations/mpgd/models/ ffhq256.pt
+
+# Run DAPS
+cd integrations/mpgd
+sbatch diss_run_faceID.sh
+````
+
+The main file is `run_inverse_diss.py` and the configs are in `diss_configs`. Configs with `_mpgd.yaml` correspond to the baseline MPGD and those with `_config.yaml` to RFJS.
+
+</details>
+
+
+
+
+
 ### 🔗 Pretrained Models
 Pretrained models used in this project.
 
