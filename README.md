@@ -143,6 +143,9 @@ The main file is `diss_run_inverse.py` and the configs are in `diss_configs`. Co
 </details>
 
 
+Note: Change the config files data paths from `images` to `images_all` (and side information configs similarly) to run the algorithm on all images
+
+
 
 
 
