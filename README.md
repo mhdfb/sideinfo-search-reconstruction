@@ -138,7 +138,7 @@ cd integrations/mpgd
 sbatch diss_run_faceID.sh
 ````
 
-The main file is `run_inverse_diss.py` and the configs are in `diss_configs`. Configs with `_mpgd.yaml` correspond to the baseline MPGD and those with `_config.yaml` to RFJS.
+The main file is `diss_run_inverse.py` and the configs are in `diss_configs`. Configs with `_mpgd.yaml` correspond to the baseline MPGD and those with `_config.yaml` to RFJS.
 
 </details>
 
