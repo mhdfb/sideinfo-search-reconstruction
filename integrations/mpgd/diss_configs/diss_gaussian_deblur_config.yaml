@@ -10,7 +10,7 @@ data:
 measurement:
   operator:
     name: gaussian_blur
-    kernel_size: 81
+    kernel_size: 61
     intensity: 5.0
 
   noise:
