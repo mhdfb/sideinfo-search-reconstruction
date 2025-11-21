@@ -9,11 +9,7 @@ Our framework enables the use of arbitrary side information, such as identity em
 </p>
 
 ## Getting Started
-### 1) Clone the repository
-```bash
-git clone https://github.com/mahdi124710/DISS.git
-cd DISS
-````
+### 1) Clone the repository and open the folder
 
 ### 2) Set up environment
 ```bash
